@@ -2,5 +2,6 @@
   "postUpgradeTasks": {
     "commands": ["echo modified > file.txt"],
     "fileFilters": ["file.txt"]
-  }
+  },
+  "configMigration": true
 }
