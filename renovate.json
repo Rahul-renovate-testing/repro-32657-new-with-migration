@@ -1,6 +1,6 @@
 {
   "postUpgradeTasks": {
-    "commands": ["pnpm install --lockfile-only"],
-    "fileFilters": ["pnpm-lock.yaml"]
+    "commands": ["echo modified > file.txt"],
+    "fileFilters": ["file.txt"]
   }
 }
