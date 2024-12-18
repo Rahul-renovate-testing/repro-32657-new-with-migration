@@ -1,0 +1,6 @@
+{
+  "postUpgradeTasks": {
+    "commands": ["pnpm install --lockfile-only"],
+    "fileFilters": ["pnpm-lock.yaml"]
+  }
+}
