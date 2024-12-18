@@ -18,7 +18,7 @@ $ pnpm config-validator
  WARN: config.js needs migrating
        "originalConfig": {
          "token": "***********",
-         "repositories": ["Rahul-renovate-testing/repro-32657-new-no-migration"],
+         "repositories": ["Rahul-renovate-testing/repro-32657-new-with-migration"],
          "allowPostUpgradeCommandTemplating": true,
          "allowedPostUpgradeCommands": ["echo modified > file.txt"],
          "repositoryCache": "disabled",
@@ -29,7 +29,7 @@ $ pnpm config-validator
        },
        "migratedConfig": {
          "token": "***********",
-         "repositories": ["Rahul-renovate-testing/repro-32657-new-no-migration"],
+         "repositories": ["Rahul-renovate-testing/repro-32657-new-with-migration"],
          "allowCommandTemplating": true,
          "allowedCommands": ["echo modified > file.txt"],
          "repositoryCache": "disabled",
